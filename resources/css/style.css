@@ -1,0 +1,56 @@
+#skills .container {
+  margin-bottom: 4rem;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.glyphicon {
+  font-size: 5rem;
+}
+
+.img-wrap {
+  width: 100%;
+  height: 9rem;
+}
+
+#project.container-fluid {
+  background-color: #EEEEEE;
+}
+
+#project .caption {
+  height: 21rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#project .thumbnail {
+  height: auto;
+}
+
+#project a {
+
+  margin: 0.5rem;
+}
+
+#project .caption p:last-child{
+  text-align: center;
+  }
+
+#project .container {
+  margin-top: 2rem;
+}
+
+#contact a {
+  font-size: 32px;
+}
+
+#contact {
+  margin: 7rem 0;
+}
+
+#contact .row {
+  padding-top: 3rem;
+}

@@ -17,28 +17,204 @@
 
 <body>
 
-<!-- Header Section -->
-<header>
-	<nav></nav>
-</header>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Leonard's</a>
+        </div>
 
-<!-- Main Content -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Skills <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Front End</a></li>
+                <li><a href="#">Back End</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Other</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
 
-<main>
-	<section></section>
-	<section></section>
-	<section></section>
-	<section></section>
+  <!-- Main Content -->
+
+  <main>
+
+    <!-- Presentation Section -->
+
+    <section id="jumbotron">
+      <div class="jumbotron text-center">
+        <h1>Welcome to my page</h1>
+        <p>Feel free to explore</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact me here</a></p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+      <div class="container">
+        <h1 class="text-center alert alert-info">Skills</h1>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+            <h1 class="bg-primary">Front End</h1>
+            <p class="bg-info">HTML5</p>
+            <p class="bg-info">CSS3</p>
+            <p class="bg-info">Javascript</p>
+            <p class="bg-info">Bootstrap</p>
+            <p class="bg-info">React.js</p>
+            <p class="bg-info">jQuery</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <span class="glyphicon glyphicon-hdd"></span>
+            <h1  class="bg-primary">Backend</h1>
+            <p class="bg-info">MySQL</p>
+            <p class="bg-info">Express.js</p>
+            <p class="bg-info">MongoDB</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <span class="glyphicon glyphicon-book"></span>
+            <h1 class="bg-primary">Other skills</h1>
+            <p class="bg-info">GitHub/Git Workflow</p>
+            <p class="bg-info">Chrome Dev Tools</p>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+
+    <section id="project" class="container-fluid">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="resources\images\mytimes.jpg" class="img-responsive img-rounded" alt="website preview">
+              <div class="caption">
+                <h3>My Times</h3>
+                <p>Basic CSS knowledge demonstrated by applying the Box Model, CSS Display and Flexbox</p>
+                <p><a href="https://leonard186.github.io/my_times/" class="btn btn-primary" role="button">Website</a><a href="https://github.com/leonard186/my_times" class="btn btn-default" role="button">Github Repo</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="resources\images\teacozy.jpg" class="img-responsive img-rounded" alt="website preview">
+              <div class="caption">
+                <h3>Tea Cozy</h3>
+                <p>This project proves basic understanding of CSS and HTML</p>
+                <p><a href="https://leonard186.github.io/teacozy/" class="btn btn-primary" role="button">Website</a><a href="https://github.com/leonard186/teacozy" class="btn btn-default" role="button">Github Repo</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="resources\images\secretagent.jpg" class="img-responsive img-rounded" alt="website preview">
+              <div class="caption">
+                <h3>Secret Agent Supply</h3>
+                <p>Demonstrating knowledge of basic responsive design using media queries</p>
+                <p><a href="https://leonard186.github.io/SecretAgentSupply/" class="btn btn-primary" role="button">Website</a><a href="https://github.com/leonard186/SecretAgentSupply" class="btn btn-default" role="button">Github Repo</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="resources\images\tortoiseshell.jpg" class="img-responsive img-rounded" alt="website preview">
+              <div class="caption">
+                <h3>Tortoiseshell</h3>
+                <p>Demonstrating responsive design with compatibility on all devices</p>
+                <p><a href="#" class="btn btn-primary" role="button">Website</a><a href="https://github.com/leonard186/TortoiseshellOptics" class="btn btn-default" role="button">Github Repo</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="resources\images\photomatic.jpg" class="img-responsive img-rounded" alt="website preview">
+              <div class="caption">
+                <h3>Photomatic</h3>
+                <p>The primary goal on this project is <strong>debugging</strong> using <strong>chrome dev tools</strong></p>
+                <p><a href="https://leonard186.github.io/fotomatic_broken/" class="btn btn-default" role="button">Access to broken page</a><br><a href="#" class="btn btn-primary" role="button">Website</a><a href="https://github.com/leonard186/fotomatic_broken" class="btn btn-default" role="button">Github Repo</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="resources\images\colmar.jpg" class="img-responsive img-rounded" alt="website preview">
+
+              <div class="caption">
+                <h3>Colmar Academy</h3>
+                <p>Well designed responsive website built from scratch with accessibility in mind.</p>
+                <p><a href="https://leonard186.github.io/colmar_academy/" class="btn btn-primary" role="button">Website</a><a href="https://github.com/leonard186/colmar_academy" class="btn btn-default" role="button">Github Repo</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+
+  <section id="contact">
+    <h2 class="text-center alert alert-info">CONTACT</h2>
+    <div class="row text-center">
+      <div class="col-xs-3">
+        <a href="#"><i class="fa fa-git lg"></i></a>
+      </div>
+      <div class="col-xs-3">
+        <a href="#"><i class="fa fa-skype"></i></a>
+      </div>
+      <div class="col-xs-3">
+        <a href="#"><i class="fa fa-reddit"></i></a>
+      </div>
+      <div class="col-xs-3">
+        <a href="#"><i class="fa fa-envelope-o"></i></a>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <!-- Footer Section -->
 
-<footer></footer>
+<footer>
+  <nav class="navbar navbar-inverse navbar-static-bottom">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">&copy; Copyright Leonard</a></li>
+        <li><a href="#">ballok.leonard@yahoo.com</a></li>
+      </ul>
+    </div><!-- /.container-fluid -->
+  </nav>
+</footer>
 
-  <!-- Latest compiled and minified jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Latest compiled and minified jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-  <!-- Latest compiled and minified Bootstrap JavaScript for plugins-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified Bootstrap JavaScript for plugins-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
